@@ -1,0 +1,57 @@
+{
+  "brand": "Yoyos Devices",
+  "tagline": "Devices you can trust, delivered nationwide",
+  "whatsapp": "2348036726862",
+  "email": "yoyosdevices@gmail.com",
+  "currency": "NGN",
+  "symbol": "₦",
+  "pixelId": "",
+  "pricesSet": true,
+  "siteUrl": "https://store.yoyosdevices.com.ng",
+  "delivery": "3-5 days outside Lagos",
+  "payment": "Pay on delivery",
+  "categories": [
+    {
+      "id": "iphone",
+      "name": "iPhone",
+      "file": "iphone.json",
+      "art": "phone",
+      "blurb": "17 and 18 series. eSIM or physical SIM, every colour."
+    },
+    {
+      "id": "ipad",
+      "name": "iPad",
+      "file": "ipad.json",
+      "art": "tablet",
+      "blurb": "iPad 10, iPad 11 and iPad Air, WiFi and cellular."
+    },
+    {
+      "id": "mac",
+      "name": "Mac",
+      "file": "mac.json",
+      "art": "laptop",
+      "blurb": "MacBook Air and MacBook Pro, M4 and M5, every screen size."
+    },
+    {
+      "id": "watch",
+      "name": "Apple Watch",
+      "file": "watch.json",
+      "art": "watch",
+      "blurb": "Series, SE and Ultra. GPS and cellular."
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation",
+      "file": "playstation.json",
+      "art": "console",
+      "blurb": "PS5, PS5 Digital Edition and PS5 Pro."
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "file": "audio.json",
+      "art": "earbuds",
+      "blurb": "AirPods and JBL speakers."
+    }
+  ]
+}

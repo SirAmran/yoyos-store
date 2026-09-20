@@ -1,0 +1,292 @@
+{
+  "category": "iphone",
+  "items": [
+    {
+      "slug": "iphone-17",
+      "name": "iPhone 17",
+      "art": "phone",
+      "blurb": "The standard iPhone, with a 120Hz display and the A19 chip.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Lavender",
+          "hex": "#c9b6d9"
+        },
+        {
+          "name": "Mist Blue",
+          "hex": "#a8c0d8"
+        },
+        {
+          "name": "Sage",
+          "hex": "#b3c2a8"
+        },
+        {
+          "name": "Black",
+          "hex": "#2b2b2e"
+        },
+        {
+          "name": "White",
+          "hex": "#f2f1ee"
+        }
+      ],
+      "photos": {
+        "Lavender": "/products/iphone-17-lavender.png",
+        "Mist Blue": "/products/iphone-17-mistblue.png",
+        "Sage": "/products/iphone-17-sage.png",
+        "Black": "/products/iphone-17-black.png",
+        "White": "/products/iphone-17-white.png"
+      },
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-17-air",
+      "name": "iPhone 17 Air",
+      "art": "phone",
+      "blurb": "The thin one. Titanium frame, 5.6mm.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "hex": "#b6cfe0"
+        },
+        {
+          "name": "Light Gold",
+          "hex": "#e6d5b8"
+        },
+        {
+          "name": "Cloud White",
+          "hex": "#f4f3f0"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#26262a"
+        }
+      ],
+      "photos": {
+        "Sky Blue": "/products/iphone-air-skyblue.png",
+        "Light Gold": "/products/iphone-air-lightgold.png",
+        "Cloud White": "/products/iphone-air-cloudwhite.png",
+        "Space Black": "/products/iphone-air-spaceblack.png"
+      },
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "art": "phone",
+      "blurb": "Pro camera system, A19 Pro, aluminium unibody.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#c4622d"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#2c3b5a"
+        },
+        {
+          "name": "Silver",
+          "hex": "#dfe0e2"
+        }
+      ],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-17-pro-max",
+      "name": "iPhone 17 Pro Max",
+      "art": "phone",
+      "blurb": "The largest Pro, with the longest battery life.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#c4622d"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#2c3b5a"
+        },
+        {
+          "name": "Silver",
+          "hex": "#dfe0e2"
+        }
+      ],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-18",
+      "name": "iPhone 18",
+      "art": "phone",
+      "blurb": "The standard iPhone 18.",
+      "price": null,
+      "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "colors": [],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-18-air",
+      "name": "iPhone 18 Air",
+      "art": "phone",
+      "blurb": "The thin iPhone 18.",
+      "price": null,
+      "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "colors": [],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-18-pro",
+      "name": "iPhone 18 Pro",
+      "art": "phone",
+      "blurb": "The iPhone 18 Pro.",
+      "price": null,
+      "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "colors": [],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-18-pro-max",
+      "name": "iPhone 18 Pro Max",
+      "art": "phone",
+      "blurb": "The iPhone 18 Pro Max.",
+      "price": null,
+      "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "colors": [],
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    }
+  ]
+}

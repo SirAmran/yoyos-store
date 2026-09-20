@@ -1,0 +1,19 @@
+{
+  "category": "watch",
+  "items": [
+    { "slug": "apple-watch-se", "name": "Apple Watch SE", "art": "watch",
+      "blurb": "The entry Apple Watch. GPS or GPS plus Cellular.", "price": null,
+      "colors": [ { "name": "Midnight", "hex": "#2c2f3a" }, { "name": "Starlight", "hex": "#e9e0d2" } ],
+      "options": [ { "name": "Size", "values": ["40mm", "44mm"] }, { "name": "Connectivity", "values": ["GPS", "GPS + Cellular"] } ] },
+    { "slug": "apple-watch-series-11", "name": "Apple Watch Series 11", "art": "watch",
+      "blurb": "The main Apple Watch. GPS or GPS plus Cellular.", "price": null,
+      "note": "Confirm the generation and case sizes you stock before this goes live.",
+      "colors": [],
+      "options": [ { "name": "Size", "values": ["42mm", "46mm"] }, { "name": "Connectivity", "values": ["GPS", "GPS + Cellular"] } ] },
+    { "slug": "apple-watch-ultra-3", "name": "Apple Watch Ultra 3", "art": "watch",
+      "blurb": "The rugged Apple Watch, titanium case.", "price": null,
+      "note": "Confirm the generation you stock before this goes live.",
+      "colors": [],
+      "options": [ { "name": "Connectivity", "values": ["GPS + Cellular"] } ] }
+  ]
+}

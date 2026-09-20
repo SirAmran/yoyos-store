@@ -1,0 +1,19 @@
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+
+# The store is a static build with no dependencies, so there is nothing to
+# install. Skipping the install step keeps deploys quick.
+[build.environment]
+  NODE_VERSION = "20"
+
+[[headers]]
+  for = "/products/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

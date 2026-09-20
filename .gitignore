@@ -1,0 +1,16 @@
+# Build output. Netlify runs the build, nothing here is committed.
+dist/
+
+# Screenshots written by _drive.mjs.
+_shots/
+
+# Scratch files from earlier sessions, not part of the store.
+heredoc-test.txt
+probe.txt
+
+# Netlify CLI local state.
+.netlify/
+
+# Node, if dependencies are ever added.
+node_modules/
+npm-debug.log*

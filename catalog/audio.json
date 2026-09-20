@@ -1,0 +1,27 @@
+{
+  "category": "audio",
+  "items": [
+    { "slug": "airpods-4", "name": "AirPods 4", "art": "earbuds",
+      "blurb": "Open ear AirPods with a USB-C charging case.", "price": null, "colors": [], "options": [] },
+    { "slug": "airpods-4-anc", "name": "AirPods 4 with Active Noise Cancellation", "art": "earbuds",
+      "blurb": "AirPods 4 with noise cancellation and a wireless charging case.", "price": null, "colors": [], "options": [] },
+    { "slug": "airpods-pro-3", "name": "AirPods Pro 3", "art": "earbuds",
+      "blurb": "AirPods Pro with active noise cancellation.", "price": null, "colors": [], "options": [] },
+    { "slug": "airpods-max", "name": "AirPods Max", "art": "headphones",
+      "blurb": "Over ear AirPods.", "price": null,
+      "colors": [ { "name": "Midnight", "hex": "#2c2f3a" }, { "name": "Starlight", "hex": "#e9e0d2" }, { "name": "Blue", "hex": "#8fb4d9" }, { "name": "Purple", "hex": "#c3b6d9" }, { "name": "Orange", "hex": "#d97b3c" } ],
+      "options": [] },
+    { "slug": "jbl-go-4", "name": "JBL Go 4", "art": "speaker",
+      "blurb": "Pocket sized JBL speaker.", "price": null, "colors": [], "options": [] },
+    { "slug": "jbl-flip-7", "name": "JBL Flip 7", "art": "speaker",
+      "blurb": "Portable JBL speaker.", "price": null, "colors": [], "options": [] },
+    { "slug": "jbl-charge-6", "name": "JBL Charge 6", "art": "speaker",
+      "blurb": "Portable JBL speaker that doubles as a powerbank.", "price": null, "colors": [], "options": [] },
+    { "slug": "jbl-xtreme-4", "name": "JBL Xtreme 4", "art": "speaker",
+      "blurb": "Large portable JBL speaker.", "price": null, "colors": [], "options": [] },
+    { "slug": "jbl-partybox-320", "name": "JBL PartyBox 320", "art": "speaker",
+      "blurb": "Party speaker with a light show.", "price": null, "colors": [], "options": [] },
+    { "slug": "jbl-partybox-520", "name": "JBL PartyBox 520", "art": "speaker",
+      "blurb": "Large party speaker with a light show.", "price": null, "colors": [], "options": [] }
+  ]
+}
