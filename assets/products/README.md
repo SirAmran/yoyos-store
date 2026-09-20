@@ -24,6 +24,29 @@ Every colour with an entry gets its own picture in the gallery, the thumbnail
 strip and the grid card. Colours with no entry fall back to the illustration.
 The older single `photo` field still works and fills the first gallery slot.
 
+## What is here
+
+31 photos across 9 products, all fetched by `_fetch-photos.mjs` from Apple's own
+retail CDN:
+
+| Product | Colours |
+|---|---|
+| iPhone 17 | Lavender, Mist Blue, Sage, Black, White |
+| iPhone 17 Air | Sky Blue, Light Gold, Cloud White, Space Black |
+| iPhone 17 Pro | Cosmic Orange, Deep Blue, Silver |
+| iPhone 17 Pro Max | Cosmic Orange, Deep Blue, Silver |
+| iPhone 18 Pro | black only, wired as the single `photo` field |
+| iPhone 18 Pro Max | black only, wired as the single `photo` field |
+| iPad (10th generation) | Blue, Pink, Silver, Yellow |
+| iPad Air 11 inch | Space Grey, Blue, Purple, Starlight |
+| iPad Air 13 inch | Space Grey, Blue, Purple, Starlight |
+
+The rest of the catalogue keeps its illustration on purpose. Apple's current
+MacBook photography is the 2026 machines and the catalogue sells M4 and M5, the
+iPad 11 shots do not exist yet, and there is no transparent Apple Watch,
+PlayStation or audio imagery on that CDN. A wrong device in the gallery is worse
+than an illustration.
+
 ## What belongs here
 
 A photo may only be used when it is certainly the exact model being sold.

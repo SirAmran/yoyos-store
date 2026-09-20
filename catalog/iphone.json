@@ -122,6 +122,11 @@
           "hex": "#dfe0e2"
         }
       ],
+      "photos": {
+        "Cosmic Orange": "/products/iphone-17-pro-cosmicorange.png",
+        "Deep Blue": "/products/iphone-17-pro-deepblue.png",
+        "Silver": "/products/iphone-17-pro-silver.png"
+      },
       "options": [
         {
           "name": "Storage",
@@ -161,6 +166,11 @@
           "hex": "#dfe0e2"
         }
       ],
+      "photos": {
+        "Cosmic Orange": "/products/iphone-17-pro-max-cosmicorange.png",
+        "Deep Blue": "/products/iphone-17-pro-max-deepblue.png",
+        "Silver": "/products/iphone-17-pro-max-silver.png"
+      },
       "options": [
         {
           "name": "Storage",
@@ -240,6 +250,7 @@
       "blurb": "The iPhone 18 Pro.",
       "price": null,
       "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "photo": "/products/iphone-18-pro-black.png",
       "colors": [],
       "options": [
         {
@@ -267,6 +278,7 @@
       "blurb": "The iPhone 18 Pro Max.",
       "price": null,
       "note": "Colour line-up to be confirmed against stock before this goes live.",
+      "photo": "/products/iphone-18-pro-max-black.png",
       "colors": [],
       "options": [
         {

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* Static site generator for the Yoyos Devices store.
    Node only, no dependencies. Reads catalog/*.json, writes a self-contained dist/. */
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, cpSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, cpSync, copyFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -18,6 +18,18 @@ const ASSETS = join(ROOT, 'assets');
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
 
 const store = readJson(join(CATALOG, 'site.json'));
+
+/* These two fields are free text from the admin page, so they are normalised
+   once here rather than at each of the ten places the sentence gets built.
+   delivery becomes a standalone sentence with exactly one full stop, because
+   the site prints it on its own. payment stays a short label with no full stop,
+   because it is read mid-sentence as well as alone. */
+const sentence = (v) => {
+  const s = String(v || '').trim().replace(/\.+$/, '');
+  return s ? s + '.' : '';
+};
+store.delivery = sentence(store.delivery);
+store.payment = String(store.payment || '').trim().replace(/\.+$/, '');
 const cats = store.categories;
 const byCat = {};
 cats.forEach((c) => { byCat[c.id] = readJson(join(CATALOG, c.file)).items; });
@@ -97,11 +109,9 @@ writeFileSync(join(DIST, 'robots.txt'),
   'User-agent: *\nAllow: /\n' +
   (store.siteUrl ? 'Sitemap: ' + store.siteUrl + '/sitemap.xml\n' : ''), 'utf8');
 
-writeFileSync(join(DIST, 'favicon.svg'),
-  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
-  '<rect width="64" height="64" rx="15" fill="#0d1524"/>' +
-  '<text x="32" y="44" font-family="Sora,Inter,sans-serif" font-size="36" font-weight="800" ' +
-  'fill="#ffffff" text-anchor="middle">' + store.brand.charAt(0) + '</text></svg>', 'utf8');
+/* The favicon is the same mark as the header logo, so it is copied from the one
+   source rather than drawn a second time here. Rebuild it with `node _make-logo.mjs`. */
+copyFileSync(join(ASSETS, 'logo.svg'), join(DIST, 'favicon.svg'));
 
 /* Anything dropped into assets/ ships as-is, including real product photos. */
 if (existsSync(ASSETS)) {

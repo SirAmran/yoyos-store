@@ -39,6 +39,19 @@ whole order as text, and hands it to WhatsApp with everything pre-filled. The
 same text is offered by email as a second route. Every order is confirmed by
 phone before dispatch.
 
+## Logo and link preview
+
+The mark is generated, not drawn by hand. `node _make-logo.mjs` writes every
+file from one source: `assets/logo.svg` for the header and the favicon, a square
+`logo-1024.png` and `logo-512.png` for the Facebook and Instagram profile
+pictures, `logo-180.png` for the iPhone home screen icon, and `og.png`, the
+1200x630 card that shows when the store link is posted. The renders bake in the
+Sora webfont, so they look right on a machine that has never seen it.
+
+`build.mjs` copies `assets/logo.svg` to `dist/favicon.svg`, so the tab icon and
+the header logo are always the same file. Re-run `_make-logo.mjs` after changing
+the mark, then rebuild.
+
 ## Product photos
 
 Real photography lives in `assets/products/` and is wired per colour, so each

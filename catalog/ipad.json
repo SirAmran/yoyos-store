@@ -5,6 +5,7 @@
       "blurb": "10.9 inch iPad. WiFi or WiFi plus Cellular.",
       "price": null,
       "colors": [ { "name": "Blue", "hex": "#8fb4d9" }, { "name": "Pink", "hex": "#e8c3cc" }, { "name": "Silver", "hex": "#dfe0e2" }, { "name": "Yellow", "hex": "#e8d79a" } ],
+      "photos": { "Blue": "/products/ipad-10-blue.png", "Pink": "/products/ipad-10-pink.png", "Silver": "/products/ipad-10-silver.png", "Yellow": "/products/ipad-10-yellow.png" },
       "options": [ { "name": "Connectivity", "values": ["WiFi", "WiFi + Cellular"] }, { "name": "Storage", "values": ["64GB", "256GB"] } ] },
     { "slug": "ipad-11", "name": "iPad (11th generation)", "art": "tablet",
       "blurb": "11 inch iPad. WiFi or WiFi plus Cellular.",
@@ -15,11 +16,13 @@
       "blurb": "iPad Air, 11 inch. WiFi or WiFi plus Cellular.",
       "price": null,
       "colors": [ { "name": "Space Grey", "hex": "#6e7276" }, { "name": "Blue", "hex": "#a8c0d8" }, { "name": "Purple", "hex": "#c3b6d9" }, { "name": "Starlight", "hex": "#e9e0d2" } ],
+      "photos": { "Space Grey": "/products/ipad-air-11-spacegrey.png", "Blue": "/products/ipad-air-11-blue.png", "Purple": "/products/ipad-air-11-purple.png", "Starlight": "/products/ipad-air-11-starlight.png" },
       "options": [ { "name": "Connectivity", "values": ["WiFi", "WiFi + Cellular"] }, { "name": "Storage", "values": ["128GB", "256GB", "512GB", "1TB"] } ] },
     { "slug": "ipad-air-13", "name": "iPad Air 13 inch", "art": "tablet",
       "blurb": "iPad Air, 13 inch. WiFi or WiFi plus Cellular.",
       "price": null,
       "colors": [ { "name": "Space Grey", "hex": "#6e7276" }, { "name": "Blue", "hex": "#a8c0d8" }, { "name": "Purple", "hex": "#c3b6d9" }, { "name": "Starlight", "hex": "#e9e0d2" } ],
+      "photos": { "Space Grey": "/products/ipad-air-13-spacegrey.png", "Blue": "/products/ipad-air-13-blue.png", "Purple": "/products/ipad-air-13-purple.png", "Starlight": "/products/ipad-air-13-starlight.png" },
       "options": [ { "name": "Connectivity", "values": ["WiFi", "WiFi + Cellular"] }, { "name": "Storage", "values": ["128GB", "256GB", "512GB", "1TB"] } ] }
   ]
 }
