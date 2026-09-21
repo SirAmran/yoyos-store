@@ -24,13 +24,18 @@ const WANT = {
   'iphone-17-pro-max-deepblue':   'iphone-17-pro-max-finish-select-deepblue-202509',
   'iphone-17-pro-max-silver':     'iphone-17-pro-max-finish-select-silver-202509',
 
-  /* iPhone 18 Pro and Pro Max, September 2026. Only black and silver exist so
-     far; the other colours are not pictured on Apple's CDN, so those keep their
-     illustrations rather than borrowing a colour we cannot show honestly. */
+  /* iPhone 18 Pro and Pro Max, September 2026. All four finishes are pictured on
+     Apple's CDN. The slugs are taken off Apple's own buy page, never guessed: a
+     first pass assumed only black and silver existed and gave up on the rest,
+     which was wrong. Read the buy page HTML for `finish-select` slugs instead. */
   'iphone-18-pro-black':          'iphone-18-pro-finish-select-black-202609',
   'iphone-18-pro-silver':         'iphone-18-pro-finish-select-silver-202609',
+  'iphone-18-pro-burgundy':       'iphone-18-pro-finish-select-burgundy-202609',
+  'iphone-18-pro-glacier':        'iphone-18-pro-finish-select-glacier-202609',
   'iphone-18-pro-max-black':      'iphone-18-pro-max-finish-select-black-202609',
   'iphone-18-pro-max-silver':     'iphone-18-pro-max-finish-select-silver-202609',
+  'iphone-18-pro-max-burgundy':   'iphone-18-pro-max-finish-select-burgundy-202609',
+  'iphone-18-pro-max-glacier':    'iphone-18-pro-max-finish-select-glacier-202609',
 
   /* iPad 10th generation, 2022. */
   'ipad-10-blue':                 'ipad-2022-hero-blue-wifi-select',

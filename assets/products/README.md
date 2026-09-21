@@ -30,6 +30,8 @@ Photos that are wired into the catalogue:
 
 | Product | Colours wired |
 |---|---|
+| iPhone 18 Pro | Burgundy, Glacier, Silver, Black |
+| iPhone 18 Pro Max | Burgundy, Glacier, Silver, Black |
 | iPhone 17 | Lavender, Mist Blue, Sage, Black, White |
 | iPhone 17 Air | Sky Blue, Light Gold, Cloud White, Space Black |
 | iPhone 17 Pro | Cosmic Orange, Deep Blue, Silver |
@@ -46,10 +48,18 @@ Photos that are wired into the catalogue:
 | Apple Watch Series 11 | single `photo` |
 | PlayStation 5 (Disc Edition) | single `photo` |
 
-The iPhone 17 and iPad 10 and iPad Air shots were fetched by `_fetch-photos.mjs`
-from Apple's own retail CDN. The MacBook, iPad 11, Apple Watch and PlayStation 5
-shots were supplied by Yoyo on 2026-09-21. The MacBook photos are cut-outs and
-sit on the gallery gradient correctly; the others were checked in the built page.
+The iPhone 17, iPhone 18 Pro and iPad 10 and iPad Air shots were fetched by
+`_fetch-photos.mjs` from Apple's own retail CDN. The MacBook, iPad 11, Apple
+Watch and PlayStation 5 shots were supplied by Yoyo on 2026-09-21. The MacBook
+photos are cut-outs and sit on the gallery gradient correctly; the others were
+checked in the built page.
+
+There is no plain **iPhone 18** and no **iPhone 18 Air**. Apple's 2026 line is
+iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, iPhone Air, iPhone 17, iPhone 17e
+and iPhone 16; `buy-iphone/iphone-18` returns 404. Read the finish slugs off
+Apple's own buy page rather than assuming which colours exist: a first pass
+concluded the 18 Pro shipped in only black and silver, and burgundy and glacier
+were sitting on the CDN the whole time.
 
 Apple Watch Ultra 3, PlayStation 5 Digital and Pro, and everything in audio keep
 their illustration, because there is no photo for them yet. A wrong device in the

@@ -2,6 +2,105 @@
   "category": "iphone",
   "items": [
     {
+      "slug": "iphone-18-pro",
+      "name": "iPhone 18 Pro",
+      "art": "phone",
+      "blurb": "The newest Pro, with the pro camera system and four finishes.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#4d1822"
+        },
+        {
+          "name": "Glacier",
+          "hex": "#e8f2fe"
+        },
+        {
+          "name": "Silver",
+          "hex": "#dfe0e2"
+        },
+        {
+          "name": "Black",
+          "hex": "#2b2b2e"
+        }
+      ],
+      "photos": {
+        "Burgundy": "/products/iphone-18-pro-burgundy.png",
+        "Glacier": "/products/iphone-18-pro-glacier.png",
+        "Silver": "/products/iphone-18-pro-silver.png",
+        "Black": "/products/iphone-18-pro-black.png"
+      },
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
+      "slug": "iphone-18-pro-max",
+      "name": "iPhone 18 Pro Max",
+      "art": "phone",
+      "blurb": "The newest Pro at the largest size, with the longest battery life.",
+      "price": null,
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#4d1822"
+        },
+        {
+          "name": "Glacier",
+          "hex": "#e8f2fe"
+        },
+        {
+          "name": "Silver",
+          "hex": "#dfe0e2"
+        },
+        {
+          "name": "Black",
+          "hex": "#2b2b2e"
+        }
+      ],
+      "photos": {
+        "Burgundy": "/products/iphone-18-pro-max-burgundy.png",
+        "Glacier": "/products/iphone-18-pro-max-glacier.png",
+        "Silver": "/products/iphone-18-pro-max-silver.png",
+        "Black": "/products/iphone-18-pro-max-black.png"
+      },
+      "options": [
+        {
+          "name": "Storage",
+          "values": [
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+          ]
+        },
+        {
+          "name": "SIM",
+          "values": [
+            "eSIM only",
+            "Physical SIM + eSIM"
+          ]
+        }
+      ],
+      "specs": []
+    },
+    {
       "slug": "iphone-17",
       "name": "iPhone 17",
       "art": "phone",
