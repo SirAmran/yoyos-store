@@ -26,26 +26,50 @@ The older single `photo` field still works and fills the first gallery slot.
 
 ## What is here
 
-31 photos across 9 products, all fetched by `_fetch-photos.mjs` from Apple's own
-retail CDN:
+Photos that are wired into the catalogue:
 
-| Product | Colours |
+| Product | Colours wired |
 |---|---|
 | iPhone 17 | Lavender, Mist Blue, Sage, Black, White |
 | iPhone 17 Air | Sky Blue, Light Gold, Cloud White, Space Black |
 | iPhone 17 Pro | Cosmic Orange, Deep Blue, Silver |
 | iPhone 17 Pro Max | Cosmic Orange, Deep Blue, Silver |
-| iPhone 18 Pro | black only, wired as the single `photo` field |
-| iPhone 18 Pro Max | black only, wired as the single `photo` field |
 | iPad (10th generation) | Blue, Pink, Silver, Yellow |
+| iPad (11th generation) | Blue, Pink, Silver, Yellow |
 | iPad Air 11 inch | Space Grey, Blue, Purple, Starlight |
 | iPad Air 13 inch | Space Grey, Blue, Purple, Starlight |
+| MacBook Air 13 inch, M4 and M5 | Sky Blue, Silver, Starlight, Midnight |
+| MacBook Air 15 inch, M4 and M5 | Sky Blue, Silver, Starlight, Midnight |
+| MacBook Pro 14 inch, M4 Pro and M5 Pro | Space Black, Silver |
+| MacBook Pro 16 inch, M4 Pro and M5 Pro | Space Black, Silver |
+| Apple Watch SE | Midnight, Starlight |
+| Apple Watch Series 11 | single `photo` |
+| PlayStation 5 (Disc Edition) | single `photo` |
 
-The rest of the catalogue keeps its illustration on purpose. Apple's current
-MacBook photography is the 2026 machines and the catalogue sells M4 and M5, the
-iPad 11 shots do not exist yet, and there is no transparent Apple Watch,
-PlayStation or audio imagery on that CDN. A wrong device in the gallery is worse
-than an illustration.
+The iPhone 17 and iPad 10 and iPad Air shots were fetched by `_fetch-photos.mjs`
+from Apple's own retail CDN. The MacBook, iPad 11, Apple Watch and PlayStation 5
+shots were supplied by Yoyo on 2026-09-21. The MacBook photos are cut-outs and
+sit on the gallery gradient correctly; the others were checked in the built page.
+
+Apple Watch Ultra 3, PlayStation 5 Digital and Pro, and everything in audio keep
+their illustration, because there is no photo for them yet. A wrong device in the
+gallery is worse than an illustration.
+
+## Not wired yet
+
+Family-level photos Yoyo supplied on 2026-09-21 that nothing points at yet. They
+are here so a rebuild cannot lose them (`build.mjs` wipes `dist/`):
+
+`watch-se-aluminium.jpg`, `watch-series-11-rosegold.jpg`,
+`watch-series-11-display.jpg`, `ipad-11-home.webp`, `ps5-home.png`,
+`ps5-digital-home.png`, `macbook-home.jpg`, `macbook-pro-home.jpg`,
+`macbook-air-skyblue.jpg`, `macbook-air-silver.webp`, `macbook-air-starlight.jpg`,
+`macbook-air-midnight.jpg`, `macbook-pro-silver.avif`,
+`macbook-pro-spaceblack.webp`.
+
+The `*-home` files are the per-family homepage shots. The rest duplicate a wired
+colour at a different crop or file format.
+
 
 ## What belongs here
 

@@ -7,7 +7,9 @@
    rather than getting a picture of the wrong device.
 
    Run: node _fetch-photos.mjs */
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, existsSync, mkdirSync } from 'node:fs';
+
+mkdirSync('assets/products', { recursive: true });
 
 const CDN = 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0 Safari/537.36';
@@ -45,10 +47,30 @@ const WANT = {
   'ipad-air-13-purple':           'ipad-air-select-13in-wifi-purple-202405',
   'ipad-air-13-starlight':        'ipad-air-select-13in-wifi-starlight-202405',
   'ipad-air-13-spacegrey':        'ipad-air-select-13in-wifi-spacegray-202405',
+
+  /* MacBook Air and MacBook Pro, both the M4 generation. Apple's buy pages
+     named the finishes "mba13-skyblue-select-202503" and
+     "mbp14-spaceblack-select-202410", which pin the generation by date: March
+     2025 for the Air and October 2024 for the Pro. The catalogue sells M4, so
+     these are the right machines. The M5 rows have no colour line-up in the
+     catalogue and keep their illustrations. */
+  'macbook-air-13-m4-skyblue':    'mba13-skyblue-select-202503',
+  'macbook-air-13-m4-silver':     'mba13-silver-select-202503',
+  'macbook-air-13-m4-starlight':  'mba13-starlight-select-202503',
+  'macbook-air-13-m4-midnight':   'mba13-midnight-select-202503',
+  'macbook-air-15-m4-skyblue':    'mba15-skyblue-select-202503',
+  'macbook-air-15-m4-silver':     'mba15-silver-select-202503',
+  'macbook-air-15-m4-starlight':  'mba15-starlight-select-202503',
+  'macbook-air-15-m4-midnight':   'mba15-midnight-select-202503',
+  'macbook-pro-14-spaceblack':    'mbp14-spaceblack-select-202410',
+  'macbook-pro-14-silver':        'mbp14-silver-select-202410',
+  'macbook-pro-16-spaceblack':    'mbp16-spaceblack-select-202410',
+  'macbook-pro-16-silver':        'mbp16-silver-select-202410',
 };
 
-let ok = 0, bad = 0;
+let ok = 0, bad = 0, had = 0;
 for (const [file, slug] of Object.entries(WANT)) {
+  if (existsSync('assets/products/' + file + '.png')) { had++; continue; }
   const url = CDN + slug + '?wid=940&hei=1112&fmt=png-alpha';
   try {
     const r = await fetch(url, { headers: { 'User-Agent': UA } });
@@ -66,4 +88,4 @@ for (const [file, slug] of Object.entries(WANT)) {
     bad++;
   }
 }
-console.log('\n' + ok + ' saved, ' + bad + ' failed');
+console.log('\n' + ok + ' saved, ' + bad + ' failed, ' + had + ' already on disk');

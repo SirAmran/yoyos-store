@@ -3,13 +3,13 @@
   "items": [
     { "slug": "ps5-disc", "name": "PlayStation 5 (Disc Edition)", "art": "console",
       "blurb": "The disc drive PS5.", "price": null, "colors": [],
+      "photo": "/products/ps5-disc.png",
       "options": [ { "name": "Storage", "values": ["1TB"] } ] },
     { "slug": "ps5-digital", "name": "PlayStation 5 Digital Edition", "art": "console",
       "blurb": "The all digital PS5, no disc drive.", "price": null, "colors": [],
       "options": [ { "name": "Storage", "values": ["1TB"] } ] },
     { "slug": "ps5-pro", "name": "PlayStation 5 Pro", "art": "console",
       "blurb": "The most powerful PS5.", "price": null, "colors": [],
-      "note": "You said both versions. Three are listed here. Remove the one you do not stock.",
       "options": [ { "name": "Storage", "values": ["2TB"] } ] }
   ]
 }

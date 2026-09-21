@@ -11,6 +11,7 @@
       "blurb": "11 inch iPad. WiFi or WiFi plus Cellular.",
       "price": null,
       "colors": [ { "name": "Blue", "hex": "#8fb4d9" }, { "name": "Pink", "hex": "#e8c3cc" }, { "name": "Silver", "hex": "#dfe0e2" }, { "name": "Yellow", "hex": "#e8d79a" } ],
+      "photos": { "Blue": "/products/ipad-11-blue.webp", "Pink": "/products/ipad-11-pink.jpg", "Silver": "/products/ipad-11-silver.jpg", "Yellow": "/products/ipad-11-yellow.jpg" },
       "options": [ { "name": "Connectivity", "values": ["WiFi", "WiFi + Cellular"] }, { "name": "Storage", "values": ["128GB", "256GB", "512GB"] } ] },
     { "slug": "ipad-air-11", "name": "iPad Air 11 inch", "art": "tablet",
       "blurb": "iPad Air, 11 inch. WiFi or WiFi plus Cellular.",

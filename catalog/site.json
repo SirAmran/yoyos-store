@@ -7,16 +7,17 @@
   "symbol": "₦",
   "pixelId": "",
   "pricesSet": true,
-  "siteUrl": "https://store.yoyosdevices.com.ng",
+  "siteUrl": "https://yoyosdevices.com.ng",
   "delivery": "Delivery is 1 day nationwide",
-  "payment": "Bank transfer",
+  "address": "Opposite New Tairas Plaza, Oshitelu Street, Computer Village, Ikeja, Lagos",
+  "payment": "Bank transfer or Paystack",
   "categories": [
     {
       "id": "iphone",
       "name": "iPhone",
       "file": "iphone.json",
       "art": "phone",
-      "blurb": "17 and 18 series. eSIM or physical SIM, every colour."
+      "blurb": "17 series. eSIM or physical SIM, every colour."
     },
     {
       "id": "ipad",
